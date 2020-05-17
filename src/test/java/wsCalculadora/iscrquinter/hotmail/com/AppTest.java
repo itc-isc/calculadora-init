@@ -15,4 +15,10 @@ public class AppTest {
 
         assertTrue(c.suma(2,3)==5);
     }
+
+    @Test public void testResta() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.resta(2,3)==-1);
+    }
 }
