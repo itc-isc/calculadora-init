@@ -3,12 +3,16 @@
  */
 package wsCalculadora.iscrquinter.hotmail.com;
 
+import wsCalculadora.iscrquinter.hotmail.com.Calculadora.Calculadora;
+
 public class App {
-    public String getGreeting() {
-        return "Hello world.";
-    }
+    Calculadora c;
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        Calculadora c = new Calculadora();
+
+        System.out.println("Calculadora aritmetica");
+        System.out.println("======================");
+        System.out.println("2+3=" + c.suma(2, 3));
     }
 }
