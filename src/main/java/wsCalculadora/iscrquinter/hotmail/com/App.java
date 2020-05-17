@@ -14,5 +14,6 @@ public class App {
         System.out.println("Calculadora aritmetica");
         System.out.println("======================");
         System.out.println("2+3=" + c.suma(2, 3));
+        System.out.println(c.resta(2, 3));
     }
 }
