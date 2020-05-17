@@ -12,6 +12,7 @@ public class App {
         Calculadora c = new Calculadora();
 
         System.out.println("Calculadora aritmetica");
+        System.out.println("======================");
         System.out.println("2+3=" + c.suma(2, 3));
     }
 }
