@@ -9,5 +9,9 @@ public class Calculadora {
 	public double resta(double x, double y) {
 		return x-y;
 	}
+
+	public double multiplica(double x, double y) {
+		return x * y;
+	}
     
 }
