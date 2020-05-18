@@ -15,7 +15,7 @@ public class App {
     }
 
     private static void ejecutando(Calculadora c) {
-        System.out.println("Calculadora aritmetica (2.01)");
+        System.out.println("Calculadora aritmetica (3.0)");
         System.out.println("=============================");
         System.out.println("2+3=" + c.suma(2, 3));
         System.out.println("2-3=" + c.resta(2, 3));
