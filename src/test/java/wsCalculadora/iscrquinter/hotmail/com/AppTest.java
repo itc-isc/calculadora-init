@@ -21,4 +21,10 @@ public class AppTest {
 
         assertTrue(c.resta(2,3)==-1);
     }
+
+    @Test public void testMult() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.multiplica(2,3)==6);
+    }
 }
