@@ -11,10 +11,10 @@ public class App {
     public static void main(String[] args) {
         Calculadora c = new Calculadora();
 
-        System.out.println("Calculadora aritmetica");
-        System.out.println("======================");
+        System.out.println("Calculadora aritmetica (2.01)");
+        System.out.println("=============================");
         System.out.println("2+3=" + c.suma(2, 3));
         System.out.println("2-3=" + c.resta(2, 3));
-        System.out.println("Autor: Ricardo Rafael Quintero Meza");
+        System.out.println("Autor: Ricardo Rafael Quintero Meza-ITC");
     }
 }
