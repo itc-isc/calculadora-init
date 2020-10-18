@@ -15,7 +15,11 @@ public class Calculadora {
 	}
 
 	public double divide(double x, double y) {
+		if (y==0)
+		{
+			System.out.println("Division entre cero, no es posible dividir");
+			return 0;
+		}
 		return x / y;
-	}
-    
+	}   
 }
